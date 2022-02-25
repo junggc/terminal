@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="92d1af00-167f-4d59-a1d0-95c96fccc957" name="terminal">
+        <fileTransfer rootFolder="/llbll2580" accessType="SFTP" host="llbll2580.cafe24.com" port="22" sshConfigId="28698e57-3757-4c1e-b3ca-388e97a3ee1e" sshConfig="llbll2580@llbll2580.cafe24.com:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
