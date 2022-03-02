@@ -704,7 +704,7 @@ if (!($w == 'u' || $w == 'cu') && $config['cf_email_use'] && $board['bo_use_emai
     include_once(G5_LIB_PATH.'/mailer.lib.php');
 
     ob_start();
-    include_once ('./write_update_mail.php');
+    include_once('./write_update_mail.php');
     $content = ob_get_contents();
     ob_end_clean();
 

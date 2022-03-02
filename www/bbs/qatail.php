@@ -10,5 +10,5 @@ if (G5_IS_MOBILE) {
     if($qaconfig['qa_include_tail'] && is_include_path_check($qaconfig['qa_include_tail']))
         @include ($qaconfig['qa_include_tail']);
     else
-        include ('./_tail.php');
+        include('./_tail.php');
 }

@@ -34,7 +34,7 @@ if ($w == '')
         $content = $pc_idea;
 
         ob_start();
-        include_once ('./poll_etc_update_mail.php');
+        include_once('./poll_etc_update_mail.php');
         $content = ob_get_contents();
         ob_end_clean();
 

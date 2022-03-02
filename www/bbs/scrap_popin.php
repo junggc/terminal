@@ -44,13 +44,13 @@ if ($row['cnt']) {
     echo <<<HEREDOC
     <script>
     if (confirm('이미 스크랩하신 글 입니다.\\n\\n지금 스크랩을 확인하시겠습니까?'))
-        document.location.href = './scrap.php';
+        document.location.href = 'scrap.php';
     else
         window.close();
     </script>
     <noscript>
     <p>이미 스크랩하신 글 입니다.</p>
-    <a href="./scrap.php">스크랩 확인하기</a>
+    <a href="scrap.php">스크랩 확인하기</a>
     <a href="{$back_url}">돌아가기</a>
     </noscript>
 HEREDOC;
