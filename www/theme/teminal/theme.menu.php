@@ -35,10 +35,10 @@
 **************************************/
 
 
-$daon_admin_menu = false; //관리자모드의 메뉴관리를 사용하시려면 true 로, 아니면 false로 변경하세요. 
+$daon_admin_menu = true; //관리자모드의 메뉴관리를 사용하시려면 true 로, 아니면 false로 변경하세요.
 $second_menu_view = true; //2차메뉴가 필요없으시면 false 로 바꾸세요.	false 로 설정하시면 2차메뉴가 세팅되어 있어도 출력되지 않으며, 2차메뉴 삭제로 인해 전체 css파일에서 메뉴 배경과 높이를 조정하셔야 합니다.(전체css파일명은 설명서 pdf 파일에서 확인가능)
-$third_menu_view = true;		//3차메뉴가 필요없으시면 false 로 바꾸세요. false 로 설정하시면 3차메뉴가 세팅되어 있어도 출력되지 않습니다.
-$member_menu_view = true;	// 비회원 홈페이지로 운영하여 회원관련 메뉴가 필요없으시면 false 로 바꾸세요. false 로 설정하시면 대체메뉴가 나타납니다.
+$third_menu_view = false;		//3차메뉴가 필요없으시면 false 로 바꾸세요. false 로 설정하시면 3차메뉴가 세팅되어 있어도 출력되지 않습니다.
+$member_menu_view = false;	// 비회원 홈페이지로 운영하여 회원관련 메뉴가 필요없으시면 false 로 바꾸세요. false 로 설정하시면 대체메뉴가 나타납니다.
 
 $first_menu = array(); $first_menu_target = array(); $first_menu_so_title = array();
 $second_menu = array(); $second_menu_target = array(); $second_menu_so_title = array();
@@ -179,9 +179,9 @@ $second_menu_so_title["회사소개"]["테마전체보기"] = "";
 	
 
 /***			사업영역			***********************************************************************/
-$second_menu["사업영역"]["Type01"] = G5_THEME_URL."/html/business/01.php";
-$second_menu_target["사업영역"]["Type01"] = "_self";
-$second_menu_so_title["사업영역"]["Type01"] = "";//커스텀 웹페이지는 해당 페이지내에 직접 입력합니다.
+$second_menu["사업영역"]["주요사업내역"] = G5_THEME_URL."/html/business/01.php";
+$second_menu_target["사업영역"]["주요사업내역"] = "_self";
+$second_menu_so_title["사업영역"]["주요사업내역"] = "";//커스텀 웹페이지는 해당 페이지내에 직접 입력합니다.
 
 $second_menu["사업영역"]["Type02"] = G5_THEME_URL."/html/business/02.php";
 $second_menu_target["사업영역"]["Type02"] = "_self";
@@ -190,36 +190,36 @@ $second_menu_so_title["사업영역"]["Type02"] = "";//커스텀 웹페이지는
 
 
 
-/***			제품소개			***********************************************************************/
-$second_menu["제품소개"]["갤러리형"] = G5_BBS_URL."/board.php?bo_table=product1";
-$second_menu_target["제품소개"]["갤러리형"] = "_self";
-$second_menu_so_title["제품소개"]["갤러리형"] = "보다 발전된 기술로 보다 정교한 제품을 생산합니다.";
+/***			사업실적			***********************************************************************/
+$second_menu["사업실적"]["갤러리형"] = G5_BBS_URL."/board.php?bo_table=product1";
+$second_menu_target["사업실적"]["갤러리형"] = "_self";
+$second_menu_so_title["사업실적"]["갤러리형"] = "보다 발전된 기술로 보다 정교한 제품을 생산합니다.";
 
-$second_menu["제품소개"]["리스트형"] = G5_BBS_URL."/board.php?bo_table=product2";
-$second_menu_target["제품소개"]["리스트형"] = "_self";
-$second_menu_so_title["제품소개"]["리스트형"] = "보다 발전된 기술로 보다 정교한 제품을 생산합니다.";
+$second_menu["사업실적"]["리스트형"] = G5_BBS_URL."/board.php?bo_table=product2";
+$second_menu_target["사업실적"]["리스트형"] = "_self";
+$second_menu_so_title["사업실적"]["리스트형"] = "보다 발전된 기술로 보다 정교한 제품을 생산합니다.";
 
-$second_menu["제품소개"]["웹진형"] = G5_BBS_URL."/board.php?bo_table=webzine";
-$second_menu_target["제품소개"]["웹진형"] = "_self";
-$second_menu_so_title["제품소개"]["웹진형"] = "보다 발전된 기술로 보다 정교한 제품을 생산합니다.";
+$second_menu["사업실적"]["웹진형"] = G5_BBS_URL."/board.php?bo_table=webzine";
+$second_menu_target["사업실적"]["웹진형"] = "_self";
+$second_menu_so_title["사업실적"]["웹진형"] = "보다 발전된 기술로 보다 정교한 제품을 생산합니다.";
+//
+//$second_menu["사업실적"]["갤러리형_메이슨리"] = G5_BBS_URL."/board.php?bo_table=masonry1";
+//$second_menu_target["사업실적"]["갤러리형_메이슨리"] = "_self";
+//$second_menu_so_title["사업실적"]["갤러리형_메이슨리"] = "보다 발전된 기술로 보다 정교한 제품을 생산합니다.";
 
-$second_menu["제품소개"]["갤러리형_메이슨리"] = G5_BBS_URL."/board.php?bo_table=masonry1";
-$second_menu_target["제품소개"]["갤러리형_메이슨리"] = "_self";
-$second_menu_so_title["제품소개"]["갤러리형_메이슨리"] = "보다 발전된 기술로 보다 정교한 제품을 생산합니다.";
 
-
-	/***			제품소개 > 갤러리형 에 대한 3차메뉴	 : 게시판을 만드실때 설정한 카테고리를 3차메뉴로 사용할 수 있습니다. ***********************************************************************/				
-	$third_menu["제품소개"]["갤러리형"]["홈페이지"] = G5_BBS_URL."/board.php?bo_table=product1&sca=홈페이지";
-	$third_menu_target["제품소개"]["갤러리형"]["홈페이지"] = "_self";
-	$third_menu_so_title["제품소개"]["갤러리형"]["홈페이지"] = "홈페이지 제품입니다.";
-
-	$third_menu["제품소개"]["갤러리형"]["쇼핑몰"] = G5_BBS_URL."/board.php?bo_table=product1&sca=쇼핑몰";
-	$third_menu_target["제품소개"]["갤러리형"]["쇼핑몰"] = "_self";
-	$third_menu_so_title["제품소개"]["갤러리형"]["쇼핑몰"] =  "쇼핑몰 제품입니다.";
-
-	$third_menu["제품소개"]["갤러리형"]["웹컨텐츠"] = G5_BBS_URL."/board.php?bo_table=product1&sca=웹컨텐츠";
-	$third_menu_target["제품소개"]["갤러리형"]["웹컨텐츠"] = "_self";
-	$third_menu_so_title["제품소개"]["갤러리형"]["웹컨텐츠"] =  "웹컨텐츠 제품입니다.";
+//	/***			제품소개 > 갤러리형 에 대한 3차메뉴	 : 게시판을 만드실때 설정한 카테고리를 3차메뉴로 사용할 수 있습니다. ***********************************************************************/
+//	$third_menu["사업실적"]["갤러리형"]["홈페이지"] = G5_BBS_URL."/board.php?bo_table=product1&sca=홈페이지";
+//	$third_menu_target["사업실적"]["갤러리형"]["홈페이지"] = "_self";
+//	$third_menu_so_title["사업실적"]["갤러리형"]["홈페이지"] = "홈페이지 제품입니다.";
+//
+//	$third_menu["사업실적"]["갤러리형"]["쇼핑몰"] = G5_BBS_URL."/board.php?bo_table=product1&sca=쇼핑몰";
+//	$third_menu_target["사업실적"]["갤러리형"]["쇼핑몰"] = "_self";
+//	$third_menu_so_title["사업실적"]["갤러리형"]["쇼핑몰"] =  "쇼핑몰 제품입니다.";
+//
+//	$third_menu["사업실적"]["갤러리형"]["웹컨텐츠"] = G5_BBS_URL."/board.php?bo_table=product1&sca=웹컨텐츠";
+//	$third_menu_target["사업실적"]["갤러리형"]["웹컨텐츠"] = "_self";
+//	$third_menu_so_title["사업실적"]["갤러리형"]["웹컨텐츠"] =  "웹컨텐츠 제품입니다.";
 
 
 
@@ -245,9 +245,9 @@ $second_menu["고객센터"]["질문과답변"] = G5_BBS_URL."/board.php?bo_tabl
 $second_menu_target["고객센터"]["질문과답변"] = "_self";
 $second_menu_so_title["고객센터"]["질문과답변"] = "궁금하신 점은 언제든지 문의주세요.";
 
-$second_menu["고객센터"]["유투브동영상"] = G5_BBS_URL."/board.php?bo_table=youtube";
-$second_menu_target["고객센터"]["유투브동영상"] = "_self";
-$second_menu_so_title["고객센터"]["유투브동영상"] = "다양한 소식을 동영상으로 만나보세요.";
+//$second_menu["고객센터"]["유투브동영상"] = G5_BBS_URL."/board.php?bo_table=youtube";
+//$second_menu_target["고객센터"]["유투브동영상"] = "_self";
+//$second_menu_so_title["고객센터"]["유투브동영상"] = "다양한 소식을 동영상으로 만나보세요.";
 
 $second_menu["고객센터"]["갤러리"] = G5_BBS_URL."/board.php?bo_table=gallery";
 $second_menu_target["고객센터"]["갤러리"] = "_self";

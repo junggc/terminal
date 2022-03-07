@@ -50,9 +50,9 @@ include_once(G5_THEME_PATH.'/head.php');
 					?>
 					<div class="swiper-slide swiper-lazy" data-swiper-autoplay="5000"> <?php  //data-swiper-autoplay="5000" 5초후 다음컷 ?>
 						<div class="sliderkit-text wow fadeIn">
-							<h1 class="lviewa animated" data-swiper-animation="fadeInUp" data-duration="1.2s" data-delay="0.5s">심플하지만 다 갖춘 다온테마</h1>
-							<h1 class="sviewa animated" data-swiper-animation="fadeInUp"   data-duration="1.2s" data-delay="0.7s">홈페이지, 쇼핑몰 전체제작<br>제작관련 궁금하신 사항은 언제든지 연락부탁드립니다.  </h1>
-							<div class="animated" data-swiper-animation="fadeInUp" data-duration="1.2s" data-delay="1s"><span><h2>상담문의 : daontheme@daum.net</h2></span></div>
+<!--							<h1 class="lviewa animated" data-swiper-animation="fadeInUp" data-duration="1.2s" data-delay="0.5s">심플하지만 다 갖춘 다온테마</h1>-->
+<!--							<h1 class="sviewa animated" data-swiper-animation="fadeInUp"   data-duration="1.2s" data-delay="0.7s">홈페이지, 쇼핑몰 전체제작<br>제작관련 궁금하신 사항은 언제든지 연락부탁드립니다.  </h1>-->
+<!--							<div class="animated" data-swiper-animation="fadeInUp" data-duration="1.2s" data-delay="1s"><span><h2>상담문의 : daontheme@daum.net</h2></span></div>-->
 						</div>
 						<div class="backgroundimg">
 							<div class="pc_only"><img src="<?php echo G5_THEME_URL;?>/html/image/main_visual01.jpg"></div>
@@ -63,14 +63,14 @@ include_once(G5_THEME_PATH.'/head.php');
 
 					<div class="swiper-slide swiper-lazy"  data-swiper-autoplay="5000" > <?php  //data-swiper-autoplay="31000" 31초후 다음컷 동영상 시간만큼 설정 1초 = 1000 ?>							
 						<div class="sliderkit-text" style="z-index:99999999;">
-							<h1 class="lviewa animated" data-swiper-animation="fadeInUp" data-duration="1.2s" data-delay="0.5s">YOUTUBE 백그라운드</h1>
-							<h1 class="sviewa animated" data-swiper-animation="fadeInUp" data-duration="1.2s" data-delay="0.7s">심플하지만 다 갖춘 테마<br>테마에 사용된 동영상은 사용이 불가능합니다.</h1>
-							<div class="animated" data-swiper-animation="fadeInUp" data-duration="1.2s" data-delay="1s"><span><h2>상담문의 : daontheme@daum.net</h2></span></div>
+<!--							<h1 class="lviewa animated" data-swiper-animation="fadeInUp" data-duration="1.2s" data-delay="0.5s">YOUTUBE 백그라운드</h1>-->
+<!--							<h1 class="sviewa animated" data-swiper-animation="fadeInUp" data-duration="1.2s" data-delay="0.7s">심플하지만 다 갖춘 테마<br>테마에 사용된 동영상은 사용이 불가능합니다.</h1>-->
+<!--							<div class="animated" data-swiper-animation="fadeInUp" data-duration="1.2s" data-delay="1s"><span><h2>상담문의 : daontheme@daum.net</h2></span></div>-->
 						</div>
 						<div id="bgndVideo1" style="width:100%; height:100%; background:url('<?php echo $youtube_bg;?>') no-repeat center center; background-size:cover;"></div>
 						<div id="bgndVideo" class="player" data-property="{videoURL:'https://youtu.be/<?php echo $youtube_idx?>',containment:'#bgndVideo1',showControls:false,startAt:0,stopAt:0,mute:true,autoPlay:true,loop:true,opacity:1,quality:'highres',anchor:'<?php echo $youtube_position?>',optimizeDisplay:<?php echo $youtube_optimize?>}"></div>
 						<?php 
-							
+
 							/*
 								유투브 backgroundimg 는 
 								다른 메인슬라이드 이미지와 같은 크기의 투명이미지를 올립니다.
@@ -78,7 +78,7 @@ include_once(G5_THEME_PATH.'/head.php');
 						
 						?>
 						<div class="backgroundimg">
-							<div class="pc_only"><img src="<?php echo G5_THEME_URL;?>/html/image/main_visual_transparent.png"></div>
+<!--							<div class="pc_only"><img src="--><?php //echo G5_THEME_URL;?><!--/html/image/main_visual_transparent.png"></div>-->
 							<div class="mobile_only"><img src="<?php echo G5_THEME_URL;?>/html/image/main_visual_m_transparent.png"></div>
 						</div>
 						<div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
@@ -86,9 +86,9 @@ include_once(G5_THEME_PATH.'/head.php');
 
 					<div class="swiper-slide swiper-lazy" data-swiper-autoplay="5000"> <?php  //data-swiper-autoplay="5000" 5초후 다음컷 ?>
 						<div class="sliderkit-text">
-							<h1 class="lviewa animated" data-swiper-animation="fadeInUp" data-duration="1.2s" data-delay="0.5s">심플하지만 다 갖춘 다온테마</h1>
-							<h1 class="sviewa animated" data-swiper-animation="fadeInUp"   data-duration="1.2s" data-delay="0.7s">심플하지만 다 갖춘 테마<br>홈페이지제작관련 궁금하신 사항은 언제든지 연락부탁드립니다.  </h1>
-							<div class="animated" data-swiper-animation="fadeInUp" data-duration="1.2s" data-delay="1s"><span><h2>상담문의 : daontheme@daum.net</h2></span></div>
+<!--							<h1 class="lviewa animated" data-swiper-animation="fadeInUp" data-duration="1.2s" data-delay="0.5s">심플하지만 다 갖춘 다온테마</h1>-->
+<!--							<h1 class="sviewa animated" data-swiper-animation="fadeInUp"   data-duration="1.2s" data-delay="0.7s">심플하지만 다 갖춘 테마<br>홈페이지제작관련 궁금하신 사항은 언제든지 연락부탁드립니다.  </h1>-->
+<!--							<div class="animated" data-swiper-animation="fadeInUp" data-duration="1.2s" data-delay="1s"><span><h2>상담문의 : daontheme@daum.net</h2></span></div>-->
 						</div>
 						<div class="backgroundimg">
 							<div class="pc_only"><img src="<?php echo G5_THEME_URL;?>/html/image/main_visual02.jpg"></div>
@@ -125,7 +125,7 @@ include_once(G5_THEME_PATH.'/head.php');
 							<em>INTRODUCTION</em>
 							<p>회사소개</p>
 						</dt>
-						<dd>다온테마를 소개합니다.</dd>
+						<dd>터미널산업건설을 소개합니다.</dd>
 					</dl>
 				</a>
 			</li>
@@ -157,100 +157,100 @@ include_once(G5_THEME_PATH.'/head.php');
 		</section>
 
 
+<!---->
+<!--		<section id="about_wrap">-->
+<!--			<div class="con_left wow fadeInLeft">-->
+<!--				<img src="--><!--/html/image/about_img1.jpg" title="배너이미지4">-->
+<!--			</div>-->
+<!--			<div class="con_right wow fadeInRight">-->
+<!--				<em>DAONTHEME_VER2_07</em>-->
+<!--				<h2>심플하지만 다 갖춘 테마<br>CSS기반 모든 기기 풀 반응형!</h2>-->
+<!--				<p>-->
+<!--					이곳은 간단한 설명글이 들어갈 자리입니다. 이곳은 간단한 설명글이 들어갈 자리입니다. 이곳은 간단한 설명글이 들어갈 자리입니다.<br>-->
+<!--					이곳은 간단한 설명글이 들어갈 자리입니다. 이곳은 간단한 설명글이 들어갈 자리입니다. 이곳은 간단한 설명글이 들어갈 자리입니다.-->
+<!--				</p>-->
+<!--				<a href="#none" class="btn_view"><span>자세히보기</span></a>-->
+<!--			</div>-->
+<!--		</section>-->
 
-		<section id="about_wrap">
-			<div class="con_left wow fadeInLeft">
-				<img src="<?php echo G5_THEME_URL;?>/html/image/about_img1.jpg" title="배너이미지4">
-			</div>
-			<div class="con_right wow fadeInRight">
-				<em>DAONTHEME_VER2_07</em>
-				<h2>심플하지만 다 갖춘 테마<br>CSS기반 모든 기기 풀 반응형!</h2>
-				<p>
-					이곳은 간단한 설명글이 들어갈 자리입니다. 이곳은 간단한 설명글이 들어갈 자리입니다. 이곳은 간단한 설명글이 들어갈 자리입니다.<br>
-					이곳은 간단한 설명글이 들어갈 자리입니다. 이곳은 간단한 설명글이 들어갈 자리입니다. 이곳은 간단한 설명글이 들어갈 자리입니다.
-				</p>
-				<a href="#none" class="btn_view"><span>자세히보기</span></a>
-			</div>
-		</section>
 
 
-
-		<section id="pro_wrap">
-			<div class="con_title wow fadeInUp">
-				<h3>PRODUCTS</h3>
-				<!-- <p>최고의 기술과 품질을 바탕으로 세계에서 인정받는 제품을 만듭니다.</p> -->
-			</div>
-
-			<div id="pro_tab">
-				<ul class="tab wow fadeInUp">
-					<li class="all on"><a href="#proList1">전체</a></li>
-					<li><a href="#proList2">탭메뉴01</a></li>
-					<li><a href="#proList3">탭메뉴02</a></li>
-					<li><a href="#proList4">탭메뉴03</a></li>
-				</ul>				
-	
-				<div id="proList1" class="active">
-					<div class="pro_list">
-						<?php 
-							$daon_category = "";		//카테고리명 카테고리를 사용하지 않고 전체 출력하실때는  값을 비웁니다.
-							echo daontheme_lastest('theme/daon_product', "product1", 4, 20); //daontheme_lastest("theme/daon_product", "게시판테이블명", 출력개수, 타이틀길이);
-						?>						
-					</div>
-				</div>
-				<div id="proList2">
-					<div class="pro_list">
-						<?php 
-							$daon_category = "홈페이지";		//카테고리명 카테고리를 사용하지 않고 전체 출력하실때는  값을 비웁니다.
-							echo daontheme_lastest('theme/daon_product', "product1", 4, 20); //daontheme_lastest("theme/daon_product", "게시판테이블명", 출력개수, 타이틀길이);
-						?>	
-					</div>
-				</div>
-				<div id="proList3">
-					<div class="pro_list">
-						<?php 
-							$daon_category = "쇼핑몰";		//카테고리명 카테고리를 사용하지 않고 전체 출력하실때는  값을 비웁니다.
-							echo daontheme_lastest('theme/daon_product', "product1", 4, 20); //daontheme_lastest("theme/daon_product", "게시판테이블명", 출력개수, 타이틀길이);
-						?>	
-					</div>
-				</div>
-				<div id="proList4">
-					<div class="pro_list">
-						<?php 
-							$daon_category = "웹컨텐츠";		//카테고리명 카테고리를 사용하지 않고 전체 출력하실때는  값을 비웁니다.
-							echo daontheme_lastest('theme/daon_product', "product1", 4, 20); //daontheme_lastest("theme/daon_product", "게시판테이블명", 출력개수, 타이틀길이);
-						?>	
-					</div>
-				</div>
-				<div id="proList5">
-					<div class="pro_list">
-						<?php 
-							$daon_category = "웹컨텐츠";		//카테고리명 카테고리를 사용하지 않고 전체 출력하실때는  값을 비웁니다.
-							echo daontheme_lastest('theme/daon_product', "product1", 8, 20); //daontheme_lastest("theme/daon_product", "게시판테이블명", 출력개수, 타이틀길이);
-						?>	
-					</div>
-				</div>
-			</div>
-			<script>
-				var tabMenu = function(item,active){
-				  var $item = $(item);
-				  active($item);
-				}
-
-				tabMenu('#pro_tab .tab a',function(item,active){
-				  item.on('click', function(e){
-					var $parent = $(this).parent();
-					var id = $(this).attr("href");
-					if(!$parent.hasClass('on')){
-					  $('#pro_tab li').siblings('.on').removeClass('on');
-					  $parent.addClass('on');					
-					  $('#pro_tab > div').hide();
-					  $(id).fadeIn();
-					}
-					return false;
-				  });
-				});
-			</script>
-		</section>
+<!--		<section id="pro_wrap">-->
+<!--			<div class="con_title wow fadeInUp">-->
+<!--				<h3>PRODUCTS</h3>-->
+<!--				 <p>최고의 기술과 품질을 바탕으로 세계에서 인정받는 제품을 만듭니다.</p> -->
+<!--			</div>-->
+<!---->
+<!--			<div id="pro_tab">-->
+<!--				<ul class="tab wow fadeInUp">-->
+<!--					<li class="all on"><a href="#proList1">전체</a></li>-->
+<!--					<li><a href="#proList2">탭메뉴01</a></li>-->
+<!--					<li><a href="#proList3">탭메뉴02</a></li>-->
+<!--					<li><a href="#proList4">탭메뉴03</a></li>-->
+<!--				</ul>				-->
+    <!--	-->
+<!--				<div id="proList1" class="active">-->
+<!--					<div class="pro_list">-->
+<!--						--><?php //
+//							$daon_category = "";		//카테고리명 카테고리를 사용하지 않고 전체 출력하실때는  값을 비웁니다.
+//							echo daontheme_lastest('theme/daon_product', "product1", 4, 20); //daontheme_lastest("theme/daon_product", "게시판테이블명", 출력개수, 타이틀길이);
+//						?><!--						-->
+<!--					</div>-->
+<!--				</div>-->
+<!--				<div id="proList2">-->
+<!--					<div class="pro_list">-->
+<!--						--><?php //
+//							$daon_category = "홈페이지";		//카테고리명 카테고리를 사용하지 않고 전체 출력하실때는  값을 비웁니다.
+//							echo daontheme_lastest('theme/daon_product', "product1", 4, 20); //daontheme_lastest("theme/daon_product", "게시판테이블명", 출력개수, 타이틀길이);
+//						?><!--	-->
+<!--					</div>-->
+<!--				</div>-->
+<!--				<div id="proList3">-->
+<!--					<div class="pro_list">-->
+<!--						--><?php //
+//							$daon_category = "쇼핑몰";		//카테고리명 카테고리를 사용하지 않고 전체 출력하실때는  값을 비웁니다.
+//							echo daontheme_lastest('theme/daon_product', "product1", 4, 20); //daontheme_lastest("theme/daon_product", "게시판테이블명", 출력개수, 타이틀길이);
+//						?><!--	-->
+<!--					</div>-->
+<!--				</div>-->
+<!--				<div id="proList4">-->
+<!--					<div class="pro_list">-->
+<!--						--><?php //
+//							$daon_category = "웹컨텐츠";		//카테고리명 카테고리를 사용하지 않고 전체 출력하실때는  값을 비웁니다.
+//							echo daontheme_lastest('theme/daon_product', "product1", 4, 20); //daontheme_lastest("theme/daon_product", "게시판테이블명", 출력개수, 타이틀길이);
+//						?><!--	-->
+<!--					</div>-->
+<!--				</div>-->
+<!--				<div id="proList5">-->
+<!--					<div class="pro_list">-->
+<!--						--><?php //
+//							$daon_category = "웹컨텐츠";		//카테고리명 카테고리를 사용하지 않고 전체 출력하실때는  값을 비웁니다.
+//							echo daontheme_lastest('theme/daon_product', "product1", 8, 20); //daontheme_lastest("theme/daon_product", "게시판테이블명", 출력개수, 타이틀길이);
+//						?><!--	-->
+<!--					</div>-->
+<!--				</div>-->
+<!--			</div>-->
+<!--			<script>-->
+<!--				var tabMenu = function(item,active){-->
+<!--				  var $item = $(item);-->
+<!--				  active($item);-->
+<!--				}-->
+<!---->
+<!--				tabMenu('#pro_tab .tab a',function(item,active){-->
+<!--				  item.on('click', function(e){-->
+<!--					var $parent = $(this).parent();-->
+<!--					var id = $(this).attr("href");-->
+<!--					if(!$parent.hasClass('on')){-->
+<!--					  $('#pro_tab li').siblings('.on').removeClass('on');-->
+<!--					  $parent.addClass('on');					-->
+<!--					  $('#pro_tab > div').hide();-->
+<!--					  $(id).fadeIn();-->
+<!--					}-->
+<!--					return false;-->
+<!--				  });-->
+<!--				});-->
+<!--			</script>-->
+<!--		</section>-->
 
 
 
@@ -258,38 +258,42 @@ include_once(G5_THEME_PATH.'/head.php');
 			<div class="inner">
 				<div class="con_title wow fadeInUp">
 					<h3>BUSINESS INFO</h3>
-					<p>다온테마만의 다양한 사업영역을 만나보세요.</p>
+					<p>터미널산업건설의 다양한 사업영역을 만나보세요.</p>
 				</div>
 				<div class="con_box">
 				<ul>
 					<li class="bg1 hvr-bob">
-						<a href="#none">
-							<h4>사업영역1</h4>
-							<p>이곳은 간단한 설명글이 들어갈 자리입니다.</p>
+						<a href="/theme/teminal/html/business/02.php">
+							<h4>건축구조물해체</h4>
+							<p>최근 건축공사의 화두는 단연 ‘안전’일 것입니다.
+                                터미널산업건설은 안전을 최우선 목표로 두고 해체공사에 임하고 있습니다.</p>
 						</a>
 					</li>
 					<li class="bg2 hvr-bob">
-						<a href="#none">
-							<h4>사업영역2</h4>
+						<a href="/theme/teminal/html/business/02.php">
+							<h4>내부철거공사</h4>
 							<p>
-								이곳은 간단한 설명글이 들어갈 자리입니다.<br>
-								이곳은 간단한 설명글이 들어갈 자리입니다.
+                                터미널산업건설은 지역의 각종 상가 및 특수 목적의 건물의
+                                내부 철거를 진행해 왔습니다.
+                                각종음식점은 물론, 수영장, 목욕탕, 피트니스센터 등 지역에서
+                                의뢰 받은 철거를 안전하고 신속하게 철거해 왔습니다.
 							</p>
 						</a>
 					</li>
 					<li class="bg3 hvr-bob">
-						<a href="#none">
-							<h4>사업영역3</h4>
-							<p>이곳은 간단한 설명글이 들어갈 자리입니다.</p>
+						<a href="/theme/teminal/html/business/02.php">
+							<h4>석면철거</h4>
+							<p>전국에서도 85번째 석면철거업 등록 업체로서 지역에서도
+                                독보적인 석면철거업체로 활약해 왔습니다.
+                                각종상가는 물론 지역의 단독 주택 석면, 창고, 축사 등 어떠한
+                                현장에서도 안전하고 신속하게 석면철거를 해오고 있습니다.</p>
 						</a>
 					</li>
 					<li class="bg4 hvr-bob">
-						<a href="#none">
-							<h4>사업영역4</h4>
+						<a href="/theme/teminal/html/business/02.php">
+							<h4>부분철거</h4>
 							<p>
-								이곳은 간단한 설명글이 들어갈 자리입니다.<br>
-								이곳은 간단한 설명글이 들어갈 자리입니다.<br>
-								이곳은 간단한 설명글이 들어갈 자리입니다.
+                                건물의 특정부분에 통로나 창문 등을 추가하기 위한 내력벽 부분철거가 가능한 장비를 보유하여, 현장의 소음과 분진을 최소화 하고 있습니다.
 							</p>
 						</a>
 					</li>
@@ -305,35 +309,35 @@ include_once(G5_THEME_PATH.'/head.php');
 				//슬라이드형 갤러리는 5개이상 진열 되면 슬라이드 됩니다.			
 
 		?>
-		<section id="rolling_box">	
-			<div class="inner">
-
-				<div class="con_title wow fadeInUp">
-					<h3>GALLERY</h3>
-					<p>다양한 소식을 이미지로 만나보세요.</p>
-				</div>
-
-				<div class="swiper-btn-wrap">
-					<div class="swiper-scrollbar-wrap2">
-						<div class="swiper-button-next2" ></div>
-						<div class="swiper-button-prev2" ></div>				
-					</div>
-					<div class="swiper-pagination2"></div>
-				</div>
-				<div class="swiper-container2">
-					<div class="swiper-wrapper" >
-						<?php 
-							$daon_category = "";		//카테고리명 카테고리를 사용하지 않고 전체 출력하실때는  값을 비웁니다.
-							echo daontheme_lastest('theme/daon_product_slide', "gallery", 10, 24); //daontheme_lastest("theme/daon_product_slide", "게시판테이블명", 출력개수, 타이틀길이);
-						?>					
-					</div>
-					<div class="swiper-scrollbar-wrap1">
-						<div class="swiper-scrollbar2"></div>
-					</div>
-				</div>
-
-			</div>
-		</section>
+<!--		<section id="rolling_box">	-->
+<!--			<div class="inner">-->
+<!---->
+<!--				<div class="con_title wow fadeInUp">-->
+<!--					<h3>GALLERY</h3>-->
+    <!--					<p>다양한 소식을 이미지로 만나보세요.</p>-->
+<!--				</div>-->
+<!---->
+<!--				<div class="swiper-btn-wrap">-->
+<!--					<div class="swiper-scrollbar-wrap2">-->
+<!--						<div class="swiper-button-next2" ></div>-->
+<!--						<div class="swiper-button-prev2" ></div>				-->
+<!--					</div>-->
+<!--					<div class="swiper-pagination2"></div>-->
+<!--				</div>-->
+<!--				<div class="swiper-container2">-->
+<!--					<div class="swiper-wrapper" >-->
+<!--						--><?php //
+//							$daon_category = "";		//카테고리명 카테고리를 사용하지 않고 전체 출력하실때는  값을 비웁니다.
+//							echo daontheme_lastest('theme/daon_product_slide', "gallery", 10, 24); //daontheme_lastest("theme/daon_product_slide", "게시판테이블명", 출력개수, 타이틀길이);
+//						?><!--					-->
+<!--					</div>-->
+<!--					<div class="swiper-scrollbar-wrap1">-->
+<!--						<div class="swiper-scrollbar2"></div>-->
+<!--					</div>-->
+<!--				</div>-->
+<!---->
+<!--			</div>-->
+<!--		</section>-->
 		<script src="<?php echo G5_THEME_URL;?>/html/css_js/g_slide.js"></script>	
 		
 		
@@ -359,11 +363,11 @@ include_once(G5_THEME_PATH.'/head.php');
 							<strong>질문과 답변</strong>
 							<p>궁금한 점이 있으시면 언제든지 물어보세요.</p>
 						</div>
-						<?php 
+						<?php
 							$daon_category = "";		//카테고리명 카테고리를 사용하지 않고 전체 출력하실때는  값을 비웁니다.
-							echo daontheme_lastest('theme/daon_simple', "qa", 4, 18);	//daontheme_lastest("theme/daon_simple", "게시판테이블명", 출력개수, 타이틀길이); 
-						?>								
-					</div>	
+							echo daontheme_lastest('theme/daon_simple', "qa", 4, 18);	//daontheme_lastest("theme/daon_simple", "게시판테이블명", 출력개수, 타이틀길이);
+						?>
+					</div>
 				</div>
 				<div class="dright">
 					<div class="notice_area">	
@@ -383,57 +387,57 @@ include_once(G5_THEME_PATH.'/head.php');
 	
 
 
-		<section id="service_box">	
-			<div class="inner">
-
-				<div class="con_title wow fadeInUp">
-					<h3>SERVICE</h3>
-					<p>고객만족 서비스를 위하여 최선을 다하고 있습니다.</p>
-				</div>
-
-				<div class="serviceList">
-				<ul>
-					<li>
-						<a href="<?php echo G5_BBS_URL ?>/board.php?bo_table=youtube">
-							<i class="fab fa-youtube"></i>
-							<dl>
-								<dt>동영상</dt>
-								<dd>생생한 최신동영상을<br>지금 바로 만나보세요.</dd>
-							</dl>
-						</a>
-					</li>
-					<li>
-						<a href="<?php echo G5_BBS_URL ?>/search.php">
-							<i class="fas fa-search"></i>
-							<dl>
-								<dt>통합 검색</dt>
-								<dd>키워드를 입력하시면<br>검색이 가능합니다.</dd>
-							</dl>
-						</a>
-					</li>
-					<li>
-						<a href="<?php echo G5_BBS_URL ?>/faq.php">
-							<i class="fas fa-comment-dots"></i>
-							<dl>
-								<dt>FAQ</dt>
-								<dd>자주하시는 질문만<br>모았습니다.</dd>
-							</dl>
-						</a>
-					</li>
-					<li>
-						<a href="#none" target="_blank">
-							<i class="fas fa-download"></i>
-							<dl>
-								<dt>다운로드</dt>
-								<dd>카달로그 / 설명서를<br>다운받으세요.</dd>
-							</dl>
-						</a>
-					</li>
-				</ul>
-				</div>
-
-			</div>
-		</section>
+<!--		<section id="service_box">	-->
+<!--			<div class="inner">-->
+<!---->
+<!--				<div class="con_title wow fadeInUp">-->
+<!--					<h3>SERVICE</h3>-->
+<!--					<p>고객만족 서비스를 위하여 최선을 다하고 있습니다.</p>-->
+<!--				</div>-->
+<!---->
+<!--				<div class="serviceList">-->
+<!--				<ul>-->
+<!--					<li>-->
+<!--						<a href="--><?php //echo G5_BBS_URL ?><!--/board.php?bo_table=youtube">-->
+<!--							<i class="fab fa-youtube"></i>-->
+<!--							<dl>-->
+<!--								<dt>동영상</dt>-->
+<!--								<dd>생생한 최신동영상을<br>지금 바로 만나보세요.</dd>-->
+<!--							</dl>-->
+<!--						</a>-->
+<!--					</li>-->
+<!--					<li>-->
+<!--						<a href="--><?php //echo G5_BBS_URL ?><!--/search.php">-->
+<!--							<i class="fas fa-search"></i>-->
+<!--							<dl>-->
+<!--								<dt>통합 검색</dt>-->
+<!--								<dd>키워드를 입력하시면<br>검색이 가능합니다.</dd>-->
+<!--							</dl>-->
+<!--						</a>-->
+<!--					</li>-->
+<!--					<li>-->
+<!--						<a href="--><?php //echo G5_BBS_URL ?><!--/faq.php">-->
+<!--							<i class="fas fa-comment-dots"></i>-->
+<!--							<dl>-->
+<!--								<dt>FAQ</dt>-->
+<!--								<dd>자주하시는 질문만<br>모았습니다.</dd>-->
+<!--							</dl>-->
+<!--						</a>-->
+<!--					</li>-->
+<!--					<li>-->
+<!--						<a href="#none" target="_blank">-->
+<!--							<i class="fas fa-download"></i>-->
+<!--							<dl>-->
+<!--								<dt>다운로드</dt>-->
+<!--								<dd>카달로그 / 설명서를<br>다운받으세요.</dd>-->
+<!--							</dl>-->
+<!--						</a>-->
+<!--					</li>-->
+<!--				</ul>-->
+<!--				</div>-->
+<!---->
+<!--			</div>-->
+<!--		</section>-->
 		
 		
 

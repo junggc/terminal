@@ -78,7 +78,7 @@ if(G5_COMMUNITY_USE === false) {
 
 	<div class="q-menu" id="backtotop">
 		<nav>
-			<div><a href="<?php echo G5_URL ?>/index2.php"><i class="fa fa-home"></i><span>Home</span></a></div>
+			<div><a href="<?php echo G5_URL ?>/index.php"><i class="fa fa-home"></i><span>Home</span></a></div>
 			<div><a href="<?php echo G5_THEME_URL;?>/html/company/01.php"><i class="fa fa-building"></i><span>About</span></a></div>
 			<div><a href="<?php echo G5_THEME_URL;?>/html/company/04.php"><i class="fas fa-map-marker-alt"></i><span>Location</span></a></div>
 			<div><a href="#top"><i class="fa fa-angle-up"></i><span>Top</span></a></div>

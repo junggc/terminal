@@ -190,7 +190,7 @@ include_once(G5_LIB_PATH.'/popular.lib.php');
 
 
 				<div id="header_logo">
-					<h1 class="logo_a"><a href="<?php echo G5_URL ?>/index2.php"><img src="<?php echo G5_THEME_URL;?>/html/image/top_logo.png" alt="로고" title="로고"></a></h1>
+					<h1 class="logo_a"><a href="<?php echo G5_URL ?>/index.php"><img src="<?php echo G5_THEME_URL;?>/html/image/top_logo.png" alt="로고" title="로고"></a></h1>
 				</div>
 				<div id="lnb">
 					<div id="lnb_wrap">						

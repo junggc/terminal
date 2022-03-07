@@ -32,7 +32,7 @@
 
 		
 		<div class="bg_vline"></div>
-		<p class="eng"><em>DAON</em> HISTORY</p>
+		<p class="eng"><em>터미널산업건설</em> HISTORY</p>
 		<p class="stitle">지난 00년간 걸어온 발자취입니다.</p>
 
 		<h3 class="history_top">현재<br> ~  <br>2010</h3>
