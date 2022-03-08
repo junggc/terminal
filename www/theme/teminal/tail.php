@@ -42,30 +42,30 @@ if(G5_COMMUNITY_USE === false) {
 				</ul>
 
 				<div id="copy_info">
-					<div class="copy_sns">
-					<ul>
-						<li class="blog"><a href="#none" target="_blank"><i class="fab fa-blogger-b"></i></a></li>
-						<li class="kakao"><a href="#none" target="_blank"><i class="fab fa-kickstarter-k"></i></a></li>
-						<li class="facebook"><a href="#none" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
-						<li class="instagram"><a href="#none" target="_blank"><i class="fab fa-instagram"></i></a></li>
-					</ul>
-					</div>
+<!--					<div class="copy_sns">-->
+<!--					<ul>-->
+<!--						<li class="blog"><a href="#none" target="_blank"><i class="fab fa-blogger-b"></i></a></li>-->
+<!--						<li class="kakao"><a href="#none" target="_blank"><i class="fab fa-kickstarter-k"></i></a></li>-->
+<!--						<li class="facebook"><a href="#none" target="_blank"><i class="fab fa-facebook-f"></i></a></li>-->
+<!--						<li class="instagram"><a href="#none" target="_blank"><i class="fab fa-instagram"></i></a></li>-->
+<!--					</ul>-->
+<!--					</div>-->
 
 					<div class="copy_inquiry">
 						<span>빠른상담</span>
 						<strong lang="en">02-123-4567</strong>
 					</div>
 
-					<div class="family_site">
-						<select id="" name="fsSelect">
-							<option value="">관련사이트</option>
-							<option value="#none">관련사이트1</option>
-							<option value="#none">관련사이트2</option>
-							<option value="#none">관련사이트3</option>
-							<option value="#none">관련사이트4</option>
-							<option value="#none">관련사이트5</option>
-						</select>
-					</div>
+<!--					<div class="family_site">-->
+<!--						<select id="" name="fsSelect">-->
+<!--							<option value="">관련사이트</option>-->
+<!--							<option value="#none">관련사이트1</option>-->
+<!--							<option value="#none">관련사이트2</option>-->
+<!--							<option value="#none">관련사이트3</option>-->
+<!--							<option value="#none">관련사이트4</option>-->
+<!--							<option value="#none">관련사이트5</option>-->
+<!--						</select>-->
+<!--					</div>-->
 				</div>
 
 

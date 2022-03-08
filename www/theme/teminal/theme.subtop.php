@@ -21,9 +21,9 @@
 $SUB_BACKGROUND = array(
     "회사소개"          => G5_THEME_URL."/html/image/sub_visual01.jpg",   
     "사업영역"          => G5_THEME_URL."/html/image/sub_visual02.jpg",   
-	"제품소개"          => G5_THEME_URL."/html/image/sub_visual03.jpg",    
+	"사업실적"          => G5_THEME_URL."/html/image/sub_visual03.jpg",
 	"온라인문의"        => G5_THEME_URL."/html/image/sub_visual04.jpg",   
-	"고객센터"          => G5_THEME_URL."/html/image/sub_visual05.jpg",   
+	"고객센터"          => G5_THEME_URL."/html/image/sub_visual05.jpg",
 	"맴버쉽"			 => G5_THEME_URL."/html/image/sub_visual06.jpg",   //회원관련
 	//"대메뉴명"          => "이미지주소", 
 	//"대메뉴명"          => "이미지주소", 
