@@ -33,9 +33,9 @@
 		
 		<div class="bg_vline"></div>
 		<p class="eng"><em>터미널산업건설</em> HISTORY</p>
-		<p class="stitle">지난 00년간 걸어온 발자취입니다.</p>
+		<p class="stitle">지난 14년간 걸어온 발자취입니다.</p>
 
-		<h3 class="history_top">현재<br> ~  <br>2010</h3>
+		<h3 class="history_top">현재<br> ~  <br>2022</h3>
 
 		<div class="timeline timeline-alternating timeline-collapsing">
 			<div class="timeline-block wow fadeInLeft">
@@ -44,7 +44,7 @@
 					<p class="bar_count">2018.01 - 2018.06</p>
 					<ul>
 						<li>내용들어갈자리내용들어갈자리내용들어갈자리 </li>
-						<li><img src="<?php echo G5_THEME_URL;?>/html/company/image/his01.jpg"></li>
+						<li><img src="<?php echo G5_THEME_URL;?>/html/company/image/연혁1.png"></li>
 					</ul>
 				</div>
 			</div>
@@ -54,7 +54,7 @@
 					<p class="bar_count">2014 - 2017.10</p>
 					<ul>
 						<li>내용들어갈자리<br>내용들어갈자리</li>
-						<li><img src="<?php echo G5_THEME_URL;?>/html/company/image/his01.jpg"></li>
+						<li><img src="<?php echo G5_THEME_URL;?>/html/company/image/연혁2.png"></li>
 					</ul>
 				</div>
 			</div>
@@ -82,7 +82,7 @@
 					<p class="bar_count">2010</p>
 					<ul>
 						<li>내용들어갈자리내용들어갈자리내용들어갈자리</li>
-						<li><img src="<?php echo G5_THEME_URL;?>/html/company/image/his01.jpg"></li>
+						<li><img src="<?php echo G5_THEME_URL;?>/html/company/image/연혁3.png"></li>
 					</ul>
 				</div>
 			</div>

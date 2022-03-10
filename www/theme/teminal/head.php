@@ -37,10 +37,10 @@ include_once(G5_LIB_PATH.'/popular.lib.php');
 	?>
 	<div id="mobile_header">
 		<div class="inner">
-			<h1><a href="<?php echo G5_URL ?>/index.php"><img src="<?php echo G5_THEME_URL;?>/html/image/top_logo_m.svg" alt="로고" title="로고"></a></h1>
+			<h1><a href="<?php echo G5_URL ?>/index.php"><img src="<?php echo G5_THEME_URL;?>/html/image/logo.svg" alt="로고" title="로고"></a></h1>
 			<ul class="m_gnb">
 				<li class="category"><a href="#none" class="qbt" title="전체메뉴열기"><i class="fa fa-outdent" aria-hidden="true"></i></a></li>
-				<li class="home"><!-- <a href="<?php echo G5_BBS_URL;?>/board.php?bo_table=qa"><i class="fa fa-pencil-alt" aria-hidden="true"></i></a> --><a href="sms:01012345678" title="휴대폰 문자전송"><i class="fas fa-envelope-open"></i></a></li>
+				<li class="home"><!-- <a href="<?php echo G5_BBS_URL;?>/board.php?bo_table=qa"><i class="fa fa-pencil-alt" aria-hidden="true"></i></a> --><a href="sms:01093402270" title="휴대폰 문자전송"><i class="fas fa-envelope-open"></i></a></li>
 			</ul>
 		</div>
 	</div>
@@ -190,7 +190,7 @@ include_once(G5_LIB_PATH.'/popular.lib.php');
 
 
 				<div id="header_logo">
-					<h1 class="logo_a"><a href="<?php echo G5_URL ?>/index.php"><img src="<?php echo G5_THEME_URL;?>/html/image/top_logo.svg" alt="로고" title="로고"></a></h1>
+					<h1 class="logo_a"><a href="<?php echo G5_URL ?>/index.php"><img src="<?php echo G5_THEME_URL;?>/html/image/logo.svg" alt="로고" title="로고"></a></h1>
 				</div>
 				<div id="lnb">
 					<div id="lnb_wrap">						

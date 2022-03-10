@@ -55,47 +55,38 @@ include_once(G5_THEME_PATH.'/head.php');
 <!--							<div class="animated" data-swiper-animation="fadeInUp" data-duration="1.2s" data-delay="1s"><span><h2>상담문의 : daontheme@daum.net</h2></span></div>-->
 						</div>
 						<div class="backgroundimg">
-                            <div class="pc_only"><img src="<?php echo G5_THEME_URL;?>/html/image/1212.png"></div>
-							<div class="mobile_only"><img src="<?php echo G5_THEME_URL;?>/html/image/main_visual01_m.jpg"></div>
-						</div>
-						<div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
-					</div>					
-
-					<div class="swiper-slide swiper-lazy"  data-swiper-autoplay="5000" > <?php  //data-swiper-autoplay="31000" 31초후 다음컷 동영상 시간만큼 설정 1초 = 1000 ?>
-						<div class="sliderkit-text" style="z-index:99999999;">
-<!--							<h1 class="lviewa animated" data-swiper-animation="fadeInUp" data-duration="1.2s" data-delay="0.5s">YOUTUBE 백그라운드</h1>-->
-<!--							<h1 class="sviewa animated" data-swiper-animation="fadeInUp" data-duration="1.2s" data-delay="0.7s">심플하지만 다 갖춘 테마<br>테마에 사용된 동영상은 사용이 불가능합니다.</h1>-->
-<!--							<div class="animated" data-swiper-animation="fadeInUp" data-duration="1.2s" data-delay="1s"><span><h2>상담문의 : daontheme@daum.net</h2></span></div>-->
-						</div>
-						<div id="bgndVideo1" style="width:100%; height:100%; background:url('<?php echo $youtube_bg;?>') no-repeat center center; background-size:cover;"></div>
-						<div id="bgndVideo" class="player" data-property="{videoURL:'https://youtu.be/<?php echo $youtube_idx?>',containment:'#bgndVideo1',showControls:false,startAt:0,stopAt:0,mute:true,autoPlay:true,loop:true,opacity:1,quality:'highres',anchor:'<?php echo $youtube_position?>',optimizeDisplay:<?php echo $youtube_optimize?>}"></div>
-						<?php
-
-							/*
-								유투브 backgroundimg 는
-								다른 메인슬라이드 이미지와 같은 크기의 투명이미지를 올립니다.
-							*/
-
-						?>
-						<div class="backgroundimg">
-<!--							<div class="pc_only"><img src="--><?php //echo G5_THEME_URL;?><!--/html/image/main_visual_transparent.png"></div>-->
-							<div class="mobile_only"><img src="<?php echo G5_THEME_URL;?>/html/image/main_visual_m_transparent.png"></div>
+                            <div class="pc_only"><img src="<?php echo G5_THEME_URL;?>/html/image/M_메인베너1.png"></div>
+							<div class="mobile_only"><img src="<?php echo G5_THEME_URL;?>/html/image/M_메인베너1.png"></div>
 						</div>
 						<div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
 					</div>
 
-					<div class="swiper-slide swiper-lazy" data-swiper-autoplay="5000"> <?php  //data-swiper-autoplay="5000" 5초후 다음컷 ?>
-						<div class="sliderkit-text">
-<!--							<h1 class="lviewa animated" data-swiper-animation="fadeInUp" data-duration="1.2s" data-delay="0.5s">심플하지만 다 갖춘 다온테마</h1>-->
-<!--							<h1 class="sviewa animated" data-swiper-animation="fadeInUp"   data-duration="1.2s" data-delay="0.7s">심플하지만 다 갖춘 테마<br>홈페이지제작관련 궁금하신 사항은 언제든지 연락부탁드립니다.  </h1>-->
-<!--							<div class="animated" data-swiper-animation="fadeInUp" data-duration="1.2s" data-delay="1s"><span><h2>상담문의 : daontheme@daum.net</h2></span></div>-->
-						</div>
-						<div class="backgroundimg">
-							<div class="pc_only"><img src="<?php echo G5_THEME_URL;?>/html/image/main_visual02.jpg"></div>
-							<div class="mobile_only"><img src="<?php echo G5_THEME_URL;?>/html/image/main_visual02_m.jpg"></div>
-						</div> 
-						<div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
-					</div>
+
+                    <div class="swiper-slide swiper-lazy" data-swiper-autoplay="5000"> <?php  //data-swiper-autoplay="5000" 5초후 다음컷 ?>
+                        <div class="sliderkit-text wow fadeIn">
+                            <!--							<h1 class="lviewa animated" data-swiper-animation="fadeInUp" data-duration="1.2s" data-delay="0.5s">심플하지만 다 갖춘 다온테마</h1>-->
+                            <!--							<h1 class="sviewa animated" data-swiper-animation="fadeInUp"   data-duration="1.2s" data-delay="0.7s">홈페이지, 쇼핑몰 전체제작<br>제작관련 궁금하신 사항은 언제든지 연락부탁드립니다.  </h1>-->
+                            <!--							<div class="animated" data-swiper-animation="fadeInUp" data-duration="1.2s" data-delay="1s"><span><h2>상담문의 : daontheme@daum.net</h2></span></div>-->
+                        </div>
+                        <div class="backgroundimg">
+                            <div class="pc_only"><img src="<?php echo G5_THEME_URL;?>/html/image/M_메인베너2.png"></div>
+                            <div class="mobile_only"><img src="<?php echo G5_THEME_URL;?>/html/image/M_메인베너2.png"></div>
+                        </div>
+                        <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                    </div>
+
+                    <div class="swiper-slide swiper-lazy" data-swiper-autoplay="5000"> <?php  //data-swiper-autoplay="5000" 5초후 다음컷 ?>
+                        <div class="sliderkit-text">
+                            <!--							<h1 class="lviewa animated" data-swiper-animation="fadeInUp" data-duration="1.2s" data-delay="0.5s">심플하지만 다 갖춘 다온테마</h1>-->
+                            <!--							<h1 class="sviewa animated" data-swiper-animation="fadeInUp"   data-duration="1.2s" data-delay="0.7s">심플하지만 다 갖춘 테마<br>홈페이지제작관련 궁금하신 사항은 언제든지 연락부탁드립니다.  </h1>-->
+                            <!--							<div class="animated" data-swiper-animation="fadeInUp" data-duration="1.2s" data-delay="1s"><span><h2>상담문의 : daontheme@daum.net</h2></span></div>-->
+                        </div>
+                        <div class="backgroundimg">
+                            <div class="pc_only"><img src="<?php echo G5_THEME_URL;?>/html/image/M_메인베너3.png"></div>
+                            <div class="mobile_only"><img src="<?php echo G5_THEME_URL;?>/html/image/M_메인베너3.png"></div>
+                        </div>
+                        <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                    </div>
 
 
 				</div>
@@ -119,7 +110,7 @@ include_once(G5_THEME_PATH.'/head.php');
 		<ul>
 			<li class="wow fadeInUp">
 				<a href="<?php echo G5_THEME_URL;?>/html/company/01.php">
-					<div class="img_box"><img src="<?php echo G5_THEME_URL;?>/html/image/m_bnr1.jpg" title="배너이미지1"></div>
+					<div class="img_box"><img src="<?php echo G5_THEME_URL;?>/html/image/M_회사소개.png" title="배너이미지1"></div>
 					<dl>
 						<dt>
 							<em>INTRODUCTION</em>
@@ -131,25 +122,26 @@ include_once(G5_THEME_PATH.'/head.php');
 			</li>
 			<li class="wow fadeInDown">
 				<a href="<?php echo G5_THEME_URL;?>/html/company/02.php">
-					<div class="img_box"><img src="<?php echo G5_THEME_URL;?>/html/image/m_bnr2.jpg" title="배너이미지2"></div>
+					<div class="img_box"><img src="<?php echo G5_THEME_URL;?>/html/image/M_Since2008.png" title="배너이미지2"></div>
 					<dl>
 						<dt>
 							<em>HISTORY</em>
 							<p>Since 2008</p>
 						</dt>
-						<dd>지난 00년간 걸어온 발자취입니다.</dd>
+						<dd>지난 14년간 걸어온 발자취입니다.</dd>
 					</dl>
 				</a>
 			</li>
 			<li class="wow fadeInUp">
-				<a href="<?php echo get_pretty_url("gallery")?>">
-					<div class="img_box"><img src="<?php echo G5_THEME_URL;?>/html/image/m_bnr3.jpg" title="배너이미지3"></div>
+                <a href="<?php echo G5_THEME_URL;?>/html/company/04.php">
+<!--				<a href="--><?php //echo get_pretty_url("gallery")?><!--">-->
+					<div class="img_box"><img src="<?php echo G5_THEME_URL;?>/html/image/M_오시는길.png" title="배너이미지3"></div>
 					<dl>
 						<dt>
-							<em>INTERIOR</em>
-							<p>내부전경</p>
+							<em>CONTACT US</em>
+							<p>오시는길</p>
 						</dt>
-						<dd>내부전경 갤러리입니다.</dd>
+						<dd>찾아오시는길을 자세히 알려드립니다.</dd>
 					</dl>
 				</a>
 			</li>
@@ -167,7 +159,7 @@ include_once(G5_THEME_PATH.'/head.php');
 				<ul>
 					<li class="bg1 hvr-bob">
 						<a href="/theme/teminal/html/business/02.php">
-							<h4>건축구조물해체</h4>
+							<h4>건축구조물 해체</h4>
 							<p>최근 건축공사의 화두는 단연 ‘안전’일 것입니다.
                                 터미널산업건설은 안전을 최우선 목표로 두고 해체공사에 임하고 있습니다.</p>
 						</a>
@@ -204,8 +196,9 @@ include_once(G5_THEME_PATH.'/head.php');
 				</div>
 			</div>
 		</section>
-
-
+<script>
+    $( 'one' ).scrollTop( 10 );
+</script>
 
 		<?php 			
 

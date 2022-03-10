@@ -40,7 +40,7 @@
 		<div class="business">
 		<ul>
 			<li class="wow fadeInUp">
-				<img src="<?php echo G5_THEME_URL;?>/html/business/image/01_1.jpg" alt="사업영역">
+				<img src="<?php echo G5_THEME_URL;?>/html/business/image/건축구조물해체.png" alt="사업영역">
 				<strong>건축구조물 해체</strong>
 				<span>
 					최근 건축공사의 화두는 단연 ‘안전’일 것입니다.<br>
@@ -85,7 +85,7 @@
 				
 			</li>
 			<li class="wow fadeInDown">
-				<img src="<?php echo G5_THEME_URL;?>/html/business/image/01_2.jpg" alt="사업영역">
+				<img src="<?php echo G5_THEME_URL;?>/html/business/image/내부철거공사.png" alt="사업영역">
 				<strong>내부철거공사</strong>
 				<span>
 					터미널산업건설은 지역의 각종 상가 및 특수 목적의 건물의 내부 철거를 진행해 왔습니다.<br>
@@ -129,7 +129,7 @@
 <!--				</table>-->
 			</li>
 			<li class="wow fadeInUp">
-				<img src="<?php echo G5_THEME_URL;?>/html/business/image/01_3.jpg" alt="사업영역">
+				<img src="<?php echo G5_THEME_URL;?>/html/business/image/석면철거.png" alt="사업영역">
 				<strong>석면철거</strong>
 				<span>
 					전국에서도 85번째 석면철거업 등록 업체로서 지역에서도 독보적인 석면철거업체로 활약해 왔습니다.<br>
@@ -173,7 +173,7 @@
 <!--				</table>-->
 			</li>
             <li class="wow fadeInUp">
-                <img src="<?php echo G5_THEME_URL;?>/html/business/image/01_3.jpg" alt="사업영역">
+                <img src="<?php echo G5_THEME_URL;?>/html/business/image/부분철거.png" alt="사업영역">
                 <strong>부분철거</strong>
                 <span>
 					건물의 특정부분에 통로나 창문 등을 추가하기 위한 내력벽 부분철거가 가능한 장비를 보유하여, 현장의 소음과 분진을 최소화 하고 있습니다.

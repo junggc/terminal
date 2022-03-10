@@ -47,17 +47,17 @@
 						// 코드를 넣으신 후 아래 주석의 1,2,3을 추가 또는 수정하시면 됩니다.
 					?>
 
-					<div id="daumRoughmapContainer1550116747855" class="root_daum_roughmap root_daum_roughmap_landing"></div>
+					<div id="daumRoughmapContainer1646733782615" class="root_daum_roughmap root_daum_roughmap_landing"></div>
 					<script charset="UTF-8" class="daum_roughmap_loader_script" src="https://ssl.daumcdn.net/dmaps/map_js_init/roughmapLoader.js"></script>				
 					<script charset="UTF-8">
 						daum_width = ($(".g_map").width()); // 1.추가
-						if(daum_width == "") daum_width = 360; // 2.추가
-						new daum.roughmap.Lander({
-							"timestamp" : "1550116747855",
-							"key" : "s7pi",
-							"mapWidth" : daum_width, // 3.수정
-							"mapHeight" : "400"
-						}).render();
+						if(daum_width == "") daum_width = 720; // 2.추가
+                        new daum.roughmap.Lander({
+                            "timestamp" : "1646733782615",
+                            "key" : "29ek7",
+                            "mapWidth" : daum_width,
+                            "mapHeight" : "360"
+                        }).render();
 					</script>
 				</div>
 							

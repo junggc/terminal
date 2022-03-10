@@ -21,66 +21,74 @@
 			<li><?php echo $g5['title']?></li>
 		</div>
 		<div class="title"><?php echo $tmenu_?></div>
-		<p class="normal_txt">
+		<p class="normal_txt" >
 			홈페이지를 방문해주셔서 감사합니다.
-		</p>
-	</div>
+		</p >
+	</div >
 
 
+	<section class="scontents" >
 
-	<section class="scontents">
-
-
-		<div class="bg_vline"></div>
-		<p class="eng"><em>BUSINESS</em> AREAS</p>
-		<p class="stitle">주요사업내역을 안내해드립니다.</p>
+		<div class="bg_vline" ></div>
+		<p class="eng" ><em>BUSINESS</em> AREAS</p>
+		<p class="stitle" >주요사업내역을 안내해드립니다.</p>
 
 
 		<div class="cross">
 		<ul>
 			<li class="wow fadeInLeft">
-				<div class="cross_img"><img src="<?php echo G5_THEME_URL;?>/html/business/image/02_1.jpg"></div>
-				<div class="cross_right">
-					<h3 class="cross_tit">건축구조물 해체</h3>
+
+				<div class="cross_img"><img src="<?php echo G5_THEME_URL;?>/html/business/image/건축구조물해체.png"></div>
+
+                <div class="cross_right" >
+
+					<h3 class="cross_tit" id="one">건축구조물 해체</h3>
 					<p class="cross_txt">
                         최근 건축공사의 화두는 단연 ‘안전’일 것입니다.<br>
                         터미널산업건설은 안전을 최우선 목표로 두고 해체공사에 임하고 있습니다.
 					</p>
+
 				</div>
 
 			</li>
 			<li class="other_type wow fadeInRight">
-				<div class="cross_img"><img src="<?php echo G5_THEME_URL;?>/html/business/image/02_2.jpg"></div>
-				<div class="cross_right">
-					<h3 class="cross_tit">내부철거공사</h3>
-					<p class="cross_txt">
+				<div class="cross_img"><img src="<?php echo G5_THEME_URL;?>/html/business/image/내부철거공사.png"></div>
+				<div class="cross_right" >
+
+					<h3 class="cross_tit" id="two">내부철거공사</h3>
+
+					<p class="cross_txt" >
                         터미널산업건설은 지역의 각종 상가 및 특수 목적의 건물의<br>
                         내부 철거를 진행해 왔습니다.<br>
                         각종음식점은 물론, 수영장, 목욕탕, 피트니스센터 등 지역에서<br>
                         의뢰 받은 철거를 안전하고 신속하게 철거해 왔습니다.
 					</p>
+
 				</div>
 			</li>
 			<li class="wow fadeInLeft">
-				<div class="cross_img"><img src="<?php echo G5_THEME_URL;?>/html/business/image/02_3.jpg"></div>
-				<div class="cross_right">
-					<h3 class="cross_tit">석면철거</h3>
+				<div class="cross_img"><img src="<?php echo G5_THEME_URL;?>/html/business/image/석면철거.png"></div>
+				<div class="cross_right" >
+
+					<h3 class="cross_tit" id="three">석면철거</h3>
+
 					<p class="cross_txt">
                         전국에서도 85번째 석면철거업 등록 업체로서 지역에서도<br>
                         독보적인 석면철거업체로 활약해 왔습니다.<br>
                         각종상가는 물론 지역의 단독 주택 석면, 창고, 축사 등 어떠한<br>
                         현장에서도 안전하고 신속하게 석면철거를 해오고 있습니다.
 					</p>
+
 				</div>
 
 			</li>
             <li class="other_type wow fadeInRight">
-                <div class="cross_img"><img src="<?php echo G5_THEME_URL;?>/html/business/image/02_3.jpg"></div>
-                <div class="cross_right">
-                    <h3 class="cross_tit">부분철거</h3>
-                    <p class="cross_txt">
+                <div class="cross_img"><img src="<?php echo G5_THEME_URL;?>/html/business/image/부분철거.png"></div>
+                <div class="cross_right" >
+                    <h3 class="cross_tit" id="four">부분철거</h3>
+                        <p class="cross_txt">
                         건물의 특정부분에 통로나 창문 등을 추가하기 위한 내력벽 부분철거가 가능한 장비를 보유하여, 현장의 소음과 분진을 최소화 하고 있습니다.
-                    </p>
+                        </p>
                 </div>
 
             </li>
