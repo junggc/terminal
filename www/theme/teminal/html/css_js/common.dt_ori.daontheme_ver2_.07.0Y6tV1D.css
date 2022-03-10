@@ -218,15 +218,16 @@ strong{font-weight:500;}
 #business_wrap .con_box { width:100%;}
 #business_wrap .con_box:after{ content:""; display:block; clear:both;}
 #business_wrap .con_box ul {padding:0; margin:0;}
-#business_wrap .con_box ul li { float:left; display:inline-block; width:285px; height:450px; text-align:center; padding:0; margin-right:20px; transition: 0.5s all ease; }
-#business_wrap .con_box ul li.bg1 { background:#282a3f url("../image/bu_bg1.jpg") no-repeat 0% 100%; background-size:cover; margin-top:0px; }
-#business_wrap .con_box ul li.bg2 { background:#00ae8a url("../image/bu_bg2.jpg") no-repeat 0% 100%; background-size:cover; }
-#business_wrap .con_box ul li.bg3 { background:#0063a3 url("../image/bu_bg3.jpg") no-repeat 0% 100%; background-size:cover; margin-top:0px;}
-#business_wrap .con_box ul li.bg4 { background:#555555 url("../image/bu_bg4.jpg") no-repeat 0% 100%; background-size:cover;}
-#business_wrap .con_box ul li a {  display:block; width:100%; height:100%; box-sizing:border-box; padding:50px 20px;  }
+#business_wrap .con_box ul li { position:relative; float:left; display:inline-block; width:285px; height:450px; text-align:center; padding:0; margin-right:20px; transition: 0.5s all ease; }
+#business_wrap .con_box ul li::before{content: ""; position: absolute; left: 0; top: 0; width: 100%; height: 100%; background: rgba(0,0,0,0.5);	z-index: 1;}
+#business_wrap .con_box ul li.bg1 { background:#282a3f url("../image/M_건축구조물해체.png") no-repeat 0% 100%; background-size:cover; margin-top:0px; }
+#business_wrap .con_box ul li.bg2 { background:#00ae8a url("../image/M_내부철거공사.png") no-repeat 0% 100%; background-size:cover; }
+#business_wrap .con_box ul li.bg3 { background:#0063a3 url("../image/M_석면철거.png") no-repeat 0% 100%; background-size:cover; margin-top:0px;}
+#business_wrap .con_box ul li.bg4 { background:#555555 url("../image/M_부분철거.png") no-repeat 0% 100%; background-size:cover;}
+#business_wrap .con_box ul li a { position: relative; z-index: 2; display:block; width:100%; height:100%; box-sizing:border-box; padding:50px 20px;  }
 #business_wrap .con_box ul li:last-child { margin-right:0;}
 #business_wrap .con_box ul li a h4 { font-size:1.85em; color:#fff; }
-#business_wrap .con_box ul li a p { font-size:1em; color:#fff; opacity:0.6; margin-top:15px;}
+#business_wrap .con_box ul li a p { font-size:1em; color:#fff; opacity:0.8; margin-top:15px;}
 #business_wrap .con_box ul li:hover {padding-top:10px; /*box-shadow:5px 10px 15px rgba(0,0,0,0.2);*/ transition: 0.5s all ease; }
 
 
