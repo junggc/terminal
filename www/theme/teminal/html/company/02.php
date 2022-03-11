@@ -35,7 +35,7 @@
 		<p class="eng"><em>터미널산업건설</em> HISTORY</p>
 		<p class="stitle">지난 14년간 걸어온 발자취입니다.</p>
 
-		<h3 class="history_top">현재<br> ~  <br>2022</h3>
+		<h3 class="history_top">현재<br> ~  <br>2008</h3>
 
 		<div class="timeline timeline-alternating timeline-collapsing">
 			<div class="timeline-block wow fadeInLeft">

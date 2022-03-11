@@ -69,19 +69,19 @@
 						<tbody>
 							<tr>
 								<th>주소</th>
-								<td>전라남도 여수시 오림1길 3</td>
+								<td>전라남도 여수시 오림1길 3, 301호 (오림동, 하솜빌딩 3층)</td>
 							</tr>
 							<tr>
 								<th>전화</th>
-								<td>02-123-4567</td>
+								<td>061) 651-8516</td>
 							</tr>
 							<tr>
 								<th>팩스</th>
-								<td>02-123-5678</td>
+								<td>061) 651-1604</td>
 							</tr>
 							<tr>
 								<th>이메일</th>
-								<td><a href="mailto:aa@naver.com">aa@naver.com</a></td>
+								<td><a href="mailto:aa@naver.com">llbll@hanmail.net</a></td>
 							</tr>
 						</tbody>
 						</table>

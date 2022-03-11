@@ -272,7 +272,7 @@ include_once(G5_THEME_PATH.'/head.php');
 							<p>전화주시면 친절히 상담해드리겠습니다.</p>
 						</div>
 						<div class="cs_tel">
-							<p>010.1234.5678</p>
+							<p>061) 651-8516</p>
 							<span>평일 : 09시-18시 (토,일,공휴일 휴무)</span>
 							<a href="<?php echo get_pretty_url("online")?>" class="btnGo">온라인 상담문의 <span>GO</span></a>
 						</div>

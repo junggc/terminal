@@ -30,13 +30,13 @@ if(G5_COMMUNITY_USE === false) {
 				<ul class="copyright">
 					<h4>터미널산업건설</h4>
 					<li>대표 : 김종성</li>
-					<li>주소 : 전라남도 여수시 오림1길 3</li>
-					<li>사업자등록번호 : 000-00-00000</li>
+					<li>주소 : 전라남도 여수시 오림1길 3, 301호 (오림동, 하솜빌딩 3층)</li>
+					<li>사업자등록번호 : 417-81-36592</li>
 					<br class="txt-block">
-					<li>TEL : 02-1234-5678</li>
-					<li>FAX : 02-1234-5679</li>
+					<li>TEL : 061-651-8516</li>
+					<li>FAX : 061-651-1604</li>
 					<li>개인정보책임관리자 : 김종성</li>
-					<li>E-MAIL : <a href="mailto:email@email.com">email@email.com</a></li>
+					<li>E-MAIL : <a href="mailto:email@email.com">llbll@hanmail.net</a></li>
 					<br class="txt-block">
 					<li class="pT15">Copyright 2022 터미널산업건설 All Rights Reserved.</li>
 				</ul>
@@ -53,7 +53,7 @@ if(G5_COMMUNITY_USE === false) {
 
 					<div class="copy_inquiry">
 						<span>빠른상담</span>
-						<strong lang="en">02-123-4567</strong>
+						<strong lang="en">010-5621-9696</strong>
 					</div>
 
 <!--					<div class="family_site">-->
