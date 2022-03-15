@@ -24,7 +24,7 @@ $SUB_BACKGROUND = array(
 	"사업실적"          => G5_THEME_URL."/html/image/사업실적.png",
 	"온라인문의"        => G5_THEME_URL."/html/image/sub_visual04.jpg",   
 	"고객센터"          => G5_THEME_URL."/html/image/고객센터.png",
-	"맴버쉽"			 => G5_THEME_URL."/html/image/sub_visual06.jpg",   //회원관련
+	"자료실"			 => G5_THEME_URL."/html/image/sub_visual06.jpg",   //회원관련
 	//"대메뉴명"          => "이미지주소", 
 	//"대메뉴명"          => "이미지주소", 
 );

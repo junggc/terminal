@@ -199,7 +199,7 @@ $second_menu["사업실적"]["리스트형"] = G5_BBS_URL."/board.php?bo_table=p
 $second_menu_target["사업실적"]["리스트형"] = "_self";
 $second_menu_so_title["사업실적"]["리스트형"] = "보다 발전된 기술로 보다 정교한 제품을 생산합니다.";
 
-$second_menu["사업실적"]["웹진형"] = G5_BBS_URL."/board.php?bo_table=webzine";
+$second_menu["자료실"]["주요자료실"] = G5_BBS_URL."/board.php?bo_table=product3";
 $second_menu_target["사업실적"]["웹진형"] = "_self";
 $second_menu_so_title["사업실적"]["웹진형"] = "보다 발전된 기술로 보다 정교한 제품을 생산합니다.";
 //
