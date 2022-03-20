@@ -35,7 +35,7 @@ if(G5_COMMUNITY_USE === false) {
 					<br class="txt-block">
 					<li>TEL : 061-651-8516</li>
 					<li>FAX : 061-651-1604</li>
-					<li>개인정보책임관리자 : 김종성</li>
+					<li>개인정보책임관리자 : 임창종</li>
 					<li>E-MAIL : <a href="mailto:email@email.com">llbll@hanmail.net</a></li>
 					<br class="txt-block">
 					<li class="pT15">Copyright 2022 터미널산업건설 All Rights Reserved.</li>
@@ -53,7 +53,7 @@ if(G5_COMMUNITY_USE === false) {
 
 					<div class="copy_inquiry">
 						<span>빠른상담</span>
-						<strong lang="en">010-5621-9696</strong>
+						<strong lang="en">010-5645-0678</strong>
 					</div>
 
 <!--					<div class="family_site">-->
